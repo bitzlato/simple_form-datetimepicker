@@ -18,7 +18,7 @@ class DateTimePickerInput < SimpleForm::Inputs::StringInput
     when :font_awesome
       'fa'
     else
-      nil
+      'fa'
     end
 
     super.merge options
